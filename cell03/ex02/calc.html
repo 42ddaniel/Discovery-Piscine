@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>calc</title>
+    <style>
+
+    </style>
+    <script>
+        window.onload = () => {
+			const leinput = document.getElementById('leftfield');
+            const riinput = document.getElementById('rightfield');
+            const operator = document.getElementById('operator');
+        }
+        function calc(leinput, riinput, operator) {
+            if ((leinput || riinput) < 0) {
+                alert("Error :(")
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <label for="leftfield">Left Field</label>
+        <input type="number" id="leftfield" min="0">
+        <label for="operator">Select Operator</label>
+        <select name="operator" id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <label for="rightfield">Right Field</label>
+        <input type="number" id="rightfield" min="0">
+        <button>Try me!</button>
+    </div>
+</body>
+</html>

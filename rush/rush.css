@@ -1,0 +1,50 @@
+.body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4{
+    position: relative;
+    opacity: 0.70;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+     /* background-image: url(https://verpex.com/assets/uploads/images/blog/Basic-HTML-Codes-for-Websites.webp?v=1691760654), url(https://blog.logrocket.com/wp-content/uploads/2023/06/css-full-page-background.png); */
+     min-height: 100%;
+}
+.parallax2{
+    /* background-image: url(https://blog.logrocket.com/wp-content/uploads/2023/06/css-full-page-background.png); */
+    min-height: 100%;
+}
+
+.parallax3{
+    /* background-image: url(https://blog.logrocket.com/wp-content/uploads/2023/06/css-full-page-background.png); */
+    min-height: 100%;
+}
+
+.parallax4{
+    /* background-image: url(https://blog.logrocket.com/wp-content/uploads/2023/06/css-full-page-background.png); */
+    min-height: 100%;
+}
+
+.blackbox {
+    position: relative;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.text {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: xx-large;
+    transform: translateY(-50%);
+}
